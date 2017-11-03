@@ -48,7 +48,6 @@ private Bitmap bitmap;
         bb=(FloatingActionButton) findViewById(R.id.bb);
 
         LinearLayout layout = (LinearLayout)findViewById(R.id.ll);
-
         String a,b,c,d;
         SharedPreferences prefs = getSharedPreferences("mysharedPref", MODE_PRIVATE);
         a=prefs.getString("name","name");
